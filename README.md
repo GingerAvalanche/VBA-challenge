@@ -12,17 +12,7 @@ I wasn't aware of just how much the script was supposed to do, versus what I was
 
 ## Notes
 
-The script does not read or store any information that is not required for the output. This includes:
-
-* It stores only the first instance of each ticker that it reads. Other instances are read and compared against the first, to find which index of the arrays to apply to, but they are not stored.
-
-* It keeps a running tally of the earliest day in each year for each ticker, and the opening stock price for that day. If the earliest day is not the last in the list, it will not store every day, or every open price.
-
-* It keeps a running tally of the latest day in each year for each ticker, and the closing stock price for that day. If the latest day is not the last in the list, it will not store every day, or every open price.
-
-* It keeps a running tally of the total volume of trades for each ticker, meaning it only technically stores the first volume it reads for each ticker - every other day is read and then added to the current running total without, itself, being stored.
-
-These choices were made in order to reduce the amount of unnecessary allocations made for variables to store that data, as they were unnecessary to produce the output described in the instructions. The grading scale description says that making those allocations was worth points. If not making those allocations loses me points, I will rewrite the script to make them and resubmit it.
+The script does not store any information in variables if it is not required for the output. The grading scale says it should, though, so I can tweak that and resubmit if necessary.
 
 The grading scale also says points are awarded for "separate VBA script files" - plural. Only one file was necessary to contain the script, so only one has been included. If the intent was to have a separate file for each of the starter code spreadsheets, I can copy it and resubmit.
 

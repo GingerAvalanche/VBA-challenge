@@ -14,7 +14,7 @@ I wasn't aware of just how much the script was supposed to do, versus what I was
 
 The script does not store any information in variables if it is not required for the output. The grading scale says it should, though, so I can tweak that and resubmit if necessary.
 
-The grading scale also says points are awarded for "separate VBA script files" - plural. Only one file was necessary to contain the script, so only one has been included. If the intent was to have a separate file for each of the starter code spreadsheets, I can copy it and resubmit.
+Two scripts have been submitted. Both produce the same output, but the optimized script can perform the task on the entire Multiple_year_stock_data workbook in ~53 seconds, compared to the unoptimized script's ~217 seconds.
 
 Only one screenshot per year is provided, to show the results of the script. The number of expected screenshots was not given, but providing enough screenshots to show every bit of the results would 237 screenshots, which I figured was a bit over the top, especially since the script can be run to provide the results, directly, in much less time than it would take to compile all those screenshots.
 
